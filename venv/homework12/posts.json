@@ -42,5 +42,9 @@
     {
         "pic": "/uploads/images/AAE2kbZ.jpg",
         "content": "Доброе утро!\r\n"
+    },
+    {
+        "pic": "/uploads/images/rc.jpg",
+        "content": "Красота"
     }
 ]
