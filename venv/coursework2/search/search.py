@@ -16,7 +16,7 @@ def search():
 def search_posts():
     '''Вьюшка, которая ищет и показывает посты по ключевому слову.'''
     s = request.args["s"]
-    posts = search_for_posts(s)
+    posts = search_for_posts(s)[:10]
     bookmarks = view_bookmarks()
     logging.info(f"Поиск постов по слову: {s}")
     return render_template("search.html", word=s, posts=posts, bookmarks=bookmarks)
