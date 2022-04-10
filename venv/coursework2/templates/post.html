@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKYPROGRAM post</title>
-  <link href="../static/css/styles.min.css" rel="stylesheet">
+  <link href="/static/css/styles.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <section class="items">
       <div class="items__item item item--post">
         <div class="item__top">
-          <a href="/users/{{ post.poster_name }}" class="item__head">
+          <a href="/users/{{ post.poster_name }}/" class="item__head">
             <div class="item__ava-wrap">
               <img src={{ post.poster_avatar }} alt="" class="item__ava" width="47">
             </div>
@@ -35,11 +35,11 @@
           </a>
           {% if post in bookmarks %}
           <button type="button" class="item__bookmark-btn active">
-            <a href="/bookmarks/remove/{{ post.pk }}"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
+            <a href="/bookmarks/remove/{{ post.pk }}/"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
           </button>
           {% else %}
           <button type="button" class="item__bookmark-btn">
-            <a href="/bookmarks/add/{{ post.pk }}"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
+            <a href="/bookmarks/add/{{ post.pk }}/"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
           </button>
           {% endif %}
         </div>

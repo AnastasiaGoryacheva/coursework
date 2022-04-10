@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKYPROGRAM {{ name }}</title>
-  <link href="../static/css/styles.min.css" rel="stylesheet">
+  <link href="/static/css/styles.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#back"></use>
         </svg>
       </a>
-      <a href="/users/{{ name }}" class="header__logo-link">
+      <a href="/users/{{ name }}/" class="header__logo-link">
         <svg class="header__logo" width="142" height="26">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#skypro"></use>
         </svg>
@@ -28,14 +28,14 @@
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
-          <a href="/users/{{ name }}" class="item__head">
+          <a href="/users/{{ name }}/" class="item__head">
             <div class="item__ava-wrap">
               <img src={{ post.poster_avatar }} alt="" class="item__ava" width="47">
             </div>
             <span class="item__username">{{ post.poster_name }}</span>
           </a>
         </div>
-        <a href="/posts/{{ post.pk }}" class="item__post-link">
+        <a href="/posts/{{ post.pk }}/" class="item__post-link">
           <img src={{ post.pic }} alt="" width="348" class="item__post-img">
         </a>
         <p class="item__descrs"><a href="#" class="item__tag"></a>{{ post.content }}</p>
@@ -55,14 +55,14 @@
             </div>
           </div>
         <div class="item__post-bottom">
-          <a href="/posts/{{ post.pk }}" class="item__btn-more">Подробнее</a>
+          <a href="/posts/{{ post.pk }}/" class="item__btn-more">Подробнее</a>
           {% if post in bookmarks %}
           <button type="button" class="item__bookmark-btn active">
-            <a href="/bookmarks/remove/{{ post.pk }}"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
+            <a href="/bookmarks/remove/{{ post.pk }}/"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
           </button>
           {% else %}
           <button type="button" class="item__bookmark-btn">
-            <a href="/bookmarks/add/{{ post.pk }}"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
+            <a href="/bookmarks/add/{{ post.pk }}/"><img src="/static/img/bookmark.png" alt="" class="item__bookmark-icon" width="24"></a>
           </button>
           {% endif %}
         </div>
