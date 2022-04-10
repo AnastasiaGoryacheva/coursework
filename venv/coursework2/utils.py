@@ -24,7 +24,6 @@ def get_posts_by_user(user_name):
     '''Возвращает посты определенного пользователя.'''
     posts_user = []
     for post in all_posts:
-        print(post)
         if post["poster_name"].lower() == user_name.lower():
             posts_user.append(post)
     return posts_user

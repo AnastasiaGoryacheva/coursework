@@ -1,5 +1,6 @@
 import pytest
-from coursework2.utils import *
+from utils import *
+
 
 def test_get_posts_all():
 
@@ -24,7 +25,7 @@ def test_search_for_posts():
 
     post_search = search_for_posts("суп")
     assert post_search != None, "ошибка при выводе постов по ключевому слову"
-    assert post_search["pk"] == 1, "ошибка при выводе постов по ключевому слову"
+    assert post_search[0]["pk"] == 1, "ошибка при выводе постов по ключевому слову"
 
 
 def test_get_post_by_pk():

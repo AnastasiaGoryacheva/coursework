@@ -90,135 +90,171 @@
     "pk": 15
   },
   {
+    "post_id": 6,
+    "commenter_name": "gven",
+    "comment": "Однозначно лайк",
+    "pk": 16
+  },
+  {
     "post_id": 7,
     "commenter_name": "johnny",
     "comment": "Выглядит неплохо )",
-    "pk": 16
+    "pk": 17
   },
   {
     "post_id": 7,
     "commenter_name": "hank",
     "comment": "Каждый раз захожу в ленту и от тебя что то классное!",
-    "pk": 17
+    "pk": 18
   },
   {
     "post_id": 7,
     "commenter_name": "larry",
     "comment": "!!!",
-    "pk": 18
+    "pk": 19
   },
   {
     "post_id": 7,
     "commenter_name": "leo",
     "comment": "Так так, продолжай)",
-    "pk": 19
+    "pk": 20
   },
   {
     "post_id": 8,
     "commenter_name": "johnny",
     "comment": "Ухты!",
-    "pk": 20
+    "pk": 21
   },
   {
     "post_id": 8,
     "commenter_name": "hank",
     "comment": "Норм )",
-    "pk": 21
+    "pk": 22
   },
   {
     "post_id": 8,
     "commenter_name": "larry",
     "comment": "Оу!",
-    "pk": 22
+    "pk": 23
   },
   {
     "post_id": 8,
     "commenter_name": "leo",
     "comment": "Интерсно...",
-    "pk": 23
+    "pk": 24
   },
   {
     "post_id": 9,
     "commenter_name": "larry",
     "comment": "Бред!",
-    "pk": 24
+    "pk": 25
   },
   {
     "post_id": 9,
     "commenter_name": "rya",
     "comment": "Выглядит ужасно!",
-    "pk": 25
+    "pk": 26
   },
   {
     "post_id": 9,
     "commenter_name": "johnny",
     "comment": "Согласен, непрактично!",
-    "pk": 26
+    "pk": 27
   },
   {
     "post_id": 10,
     "commenter_name": "johnny",
     "comment": "Давно тебя тут не было, с возвращением!",
-    "pk": 27
+    "pk": 28
   },
   {
     "post_id": 10,
     "commenter_name": "hank",
     "comment": "Ничего себе, вот это ты молодец!",
-    "pk": 28
+    "pk": 29
   },
   {
     "post_id": 11,
     "commenter_name": "larry",
     "comment": "Класс!",
-    "pk": 29
+    "pk": 30
+  },
+  {
+    "post_id": 12,
+    "commenter_name": "johnny",
+    "comment": "ОГО",
+    "pk": 31
+  },
+  {
+    "post_id": 12,
+    "commenter_name": "kris",
+    "comment": "Невероятно",
+    "pk": 32
   },
   {
     "post_id": 13,
     "commenter_name": "gven",
     "comment": "Мне нравится",
-    "pk": 30
+    "pk": 33
+  },
+  {
+    "post_id": 14,
+    "commenter_name": "leo",
+    "comment": "Красивая фотография",
+    "pk": 34
+  },
+  {
+    "post_id": 14,
+    "commenter_name": "gven",
+    "comment": "А что так можно было?",
+    "pk": 35
   },
   {
     "post_id": 15,
     "commenter_name": "karl",
     "comment": "Выглядит аппетитно!",
-    "pk": 31
+    "pk": 36
   },
   {
     "post_id": 15,
     "commenter_name": "larry",
     "comment": "О, да!",
-    "pk": 32
+    "pk": 37
   },
   {
     "post_id": 15,
     "commenter_name": "lana",
     "comment": "Я бы сделала лучше",
-    "pk": 33
+    "pk": 38
   },
   {
     "post_id": 16,
     "commenter_name": "hanna",
     "comment": "Очень необычная фоторафия! Где это?",
-    "pk": 34
+    "pk": 39
+  },
+  {
+    "post_id": 17,
+    "commenter_name": "kris",
+    "comment": "Выглядит неплохо)",
+    "pk": 40
   },
   {
     "post_id": 18,
     "commenter_name": "larry",
     "comment": "Норм!",
-    "pk": 35
+    "pk": 41
   },
   {
     "post_id": 18,
     "commenter_name": "jlia",
     "comment": "Юху!",
-    "pk": 36
+    "pk": 42
   },
   {
     "post_id": 18,
     "commenter_name": "max",
     "comment": "О, да, топ!",
-    "pk": 37
+    "pk": 43
   }
 ]

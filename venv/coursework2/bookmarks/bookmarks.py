@@ -1,6 +1,8 @@
+import logging
 from flask import Blueprint, request, render_template, redirect
 from utils import get_post_by_pk, save_post_in_bookmarks, view_bookmarks
 
+logging.basicConfig(encoding="utf-8", level=logging.INFO)
 bookmarks_blueprint = Blueprint("bookmarks", __name__)
 
 bookmarks = view_bookmarks()
@@ -13,6 +15,7 @@ def save_post(id):
     if post not in bookmarks:
         bookmarks.append(post)
     save_post_in_bookmarks(bookmarks)
+    logging.info("Запрошено добавление поста в закладки")
     return redirect("/", code=302)
 
 
@@ -23,10 +26,12 @@ def delete_post(id):
     if post in bookmarks:
         bookmarks.remove(post)
     save_post_in_bookmarks(bookmarks)
+    logging.info("Запрошено удаление поста из закладок")
     return redirect("/", code=302)
 
 
 @bookmarks_blueprint.route("/bookmarks")
 def open_bookmarks():
     '''Вьюшка, которая показывает закладки, то есть сохраненные посты'''
+    logging.info("Страница с закладками запрошена")
     return render_template("bookmarks.html", bookmarks=bookmarks)
