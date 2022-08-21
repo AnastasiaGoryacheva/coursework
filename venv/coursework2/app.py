@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask
 from post.post import post_blueprint
 from search.search import search_blueprint
 from users.users import users_blueprint
